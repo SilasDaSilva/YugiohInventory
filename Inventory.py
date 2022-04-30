@@ -39,7 +39,20 @@ else:
         inventory.append(row)
 
    print('db did exist') 
-   
+
+# Interaction
+card_to_add=input('Which card do you want to add to the Inventory? ')
+print(card_to_add)
+# with open("database.csv") as csvfile:
+#    reader = csv.reader(csvfile, delimiter=',')
+#    for row in reader: # each row is a list
+#     #if current rows 2nd value is equal to input, print that row
+#       if card_to_add in row[1]:
+#          print (row)
+#       else:
+#          print('Card not found')
+#          break
+
 
 #print(len(inventory))
 #pprint.pprint(inventory)
